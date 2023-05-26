@@ -1,0 +1,94 @@
+.Weather{
+   margin: 0;
+}
+
+/* LEFT */
+
+.left{
+   background-color: #0B2447;
+   margin: 3%;
+
+   box-shadow: 0 0 100px rgb(50, 230, 221); 
+}
+
+.left-info{
+   text-align: left;
+   padding-left: 5%;
+}
+
+.left-image{
+
+   padding-top: 5%;
+   padding-left: 10%;
+}
+
+.city{
+   font-family: Poppins;
+   font-weight: 400;
+   font-size: 4rem;
+   color:#A5D7E8;
+   padding: 3%;
+}
+
+.weather-description{
+   font-family: Roboto;
+   font-size: 1.5rem;
+   color: white;
+   margin: 0;
+   padding: 2%;
+
+}
+
+.temperatue{
+   font-family: Poppins;
+   font-weight: 700;
+   font-size: 5rem;
+   color: #A5D7E8;
+}
+
+.weather-icon{
+width: 200px;
+}
+
+.right{
+   background-color:#18122B;
+   margin: 3%;
+   box-shadow: 0 0 100px rgb(209, 51, 230); 
+}
+
+.details{
+   color: white;
+   margin: 3%;
+   padding:5%
+}
+
+.parameter-heading{
+   font-family: Roboto;
+   font-size: 3rem;
+   text-align: center;
+}
+
+
+
+.parameter-label{
+   font-family: Poppins;
+   color: #635985;
+   font-size: 2.34rem;
+   margin-right: 45%;
+
+}
+
+.wind{
+   margin-left: 15%;
+}
+
+.parameter-value{
+   font-family: Poppins;
+   font-size: 1.5rem;
+}
+
+.pressure {
+   margin-left: 0.5%;
+}
+
+

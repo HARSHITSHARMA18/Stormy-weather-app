@@ -1,0 +1,145 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@400;700&display=swap');
+
+
+
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+
+
+.box{
+  max-width :100%; ;
+  background-color: #001219;
+  padding: 100px;
+
+}
+
+.SearchBar{
+
+padding-bottom: 1.5%;
+ margin-right: 20%;
+ border-radius: 6px;
+}
+
+.SearchBar:hover{
+box-shadow: 0 0 100px white; 
+
+} 
+
+
+.Hero-heading{
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.hero-image{
+width: 50%;
+transform: rotate(-25deg);
+
+
+}
+
+
+.brand-name{
+height: 64px;
+width: 310px;
+color: #EE9B00;
+}
+
+.brand-statement{
+ font-family: Poppins; 
+ font-weight: 700; 
+ font-size: 5rem;
+ color: #0A9396;
+}
+
+.brand-sub-statement{
+  font-family: Poppins;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  
+}
+
+/* MEDIA QUERIES */
+@media(max-width:1176px){
+  .hero-image{
+    transform: rotate(0);
+    margin-left: 15%;
+    margin-top: 15%;
+  }
+
+}
+
