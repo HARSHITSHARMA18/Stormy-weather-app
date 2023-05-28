@@ -1,4 +1,4 @@
-# Stormy-weather-app
+# Stromy-weather-app
 
 A Weather app developed using React js framework and stylized using Bootstrap
 
